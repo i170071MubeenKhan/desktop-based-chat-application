@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="753.0" style="-fx-background-color: #2A322D;" stylesheets="@styling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="email" layoutX="297.0" layoutY="281.0" promptText="enter your email address" style="-fx-background-radius: 20px;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <PasswordField fx:id="password" layoutX="297.0" layoutY="331.0" promptText="enter your password">
+         <font>
+            <Font size="14.0" />
+         </font></PasswordField>
+      <Button fx:id="nextPage" layoutX="328.0" layoutY="416.0" mnemonicParsing="false" onAction="#authentication" prefHeight="40.0" prefWidth="114.0" text="Login">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <ButtonBar layoutX="524.0" layoutY="38.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="signUpPage" mnemonicParsing="false" onAction="#signUpPage" text="SignUp">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" text="Help">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+        </buttons>
+      </ButtonBar>
+      <Label fx:id="error" layoutX="277.0" layoutY="376.0" prefHeight="28.0" prefWidth="200.0" textFill="#ee3c01">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="163.0" fitWidth="162.0" layoutX="303.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/worldwide.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="213.0" layoutY="281.0" text="Email:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="331.0" text="Password:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutY="509.0" opacity="0.09" prefHeight="3.0" prefWidth="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="509.0" />
+      <Label layoutX="597.0" layoutY="508.0" text="©All Rights Reserved 2019" textFill="#e8dfdf" />
+   </children>
+</AnchorPane>

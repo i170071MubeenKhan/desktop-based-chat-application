@@ -1,0 +1,32 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+Main{
+	-fx-background-color: #2A322D;
+}
+
+PasswordField{
+	-fx-background-radius: 20px;
+    -fx-focus-color:rgba(73, 235, 132 ); /* here rgba (corrected) */
+
+}
+TextField{
+	-fx-background-radius: 20px;
+    -fx-focus-color:rgba(73, 235, 132 ); /* here rgba (corrected) */
+
+}
+
+
+.button{
+	-fx-border-color:rgba(73, 235, 132 );
+	-fx-border-radius:30px;
+	-fx-background-radius:30px;
+
+}
+.button:hover{
+
+	-fx-font-weight: bold;
+	-fx-text-fill: rgba(37, 43, 54);
+
+
+}
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="229.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="272.0" minWidth="10.0" prefWidth="26.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="272.0" minWidth="10.0" prefWidth="45.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="272.0" minWidth="10.0" prefWidth="129.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="0.0" prefWidth="12.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="10.0" prefWidth="22.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints />
+    <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="18.0" minHeight="5.0" prefHeight="9.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="label1" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Circle fx:id="isOnline" fill="DODGERBLUE" radius="7.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <ImageView fitHeight="46.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../../resources/baseline_face_black_18dp.png" />
+         </image>
+      </ImageView>
+   </children>
+</GridPane>
