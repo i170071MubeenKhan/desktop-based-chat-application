@@ -4,6 +4,6 @@
 client-server application.**
 
 **The application is created in Java language using the following:**
-* Java Swing - for UI implementation
+* JavaFX - for UI implementation
 * Socket Programming - for communicating purpose
 * File Handling - for storing messages in case of offline receiver
