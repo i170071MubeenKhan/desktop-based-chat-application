@@ -1,4 +1,4 @@
-# Desktop based Chat Application
+# Desktop Based Chat Application
 
 **A desktop based chat application that would work over a local network with a
 client-server application.**
